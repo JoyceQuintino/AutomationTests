@@ -10,7 +10,7 @@ import automationTest.page.GooglePageObject;
 
 public class GoogleTest extends AbstractTest{
 
-    private static GooglePageObject googlePage;
+    //private static GooglePageObject googlePage;
 
     @BeforeClass
     public static void prepararTestes(){
@@ -18,7 +18,7 @@ public class GoogleTest extends AbstractTest{
     }
 
     @Test
-    public void persquisarNoGoogle(){
+    public void pesquisarNoGoogle(){
 
         //googlePage.entradaPesquisa.sendKeys("Batata fita" + Keys.ENTER);
 
